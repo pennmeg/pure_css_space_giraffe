@@ -1,11 +1,48 @@
 body {
   background-color: rgb(15, 24, 58) ;
 }
-#box {
+#space {  
+  display: flex;
+  justify-content: center;
   position: relative;
-  margin: auto;
-  margin-top: 200px;
-  display: block;
-  width: 600px;
-  height: 420px;
+  margin: 10em auto;
+  width: 50em;
+  height: 20em;
+}
+#space_helmet {
+  position: absolute;
+  height: 10em;
+  width: 10em;
+  left: 45%;
+  top: -18%;
+  background-color: rgba(225, 225, 225, 0.4);
+  border-radius: 100%;
+  z-index: 3;
+}
+#space_helmet--1 {
+  position: absolute;
+  width: 3.5em;
+  height: 5em;
+  left: 40%;
+  top: 8%;
+  border: solid 3px white;
+  border-color: #fff transparent transparent transparent;
+  border-radius: 80%/30px 30px 0 0;
+  transform: rotate(40deg);
+}
+#giraffe--head {
+  position: absolute;
+  margin-left: 0.75em;
+  height: 2.75em;
+  width: 5em;
+  background-color: rgb(228, 185, 143);
+  border-bottom-right-radius: 10em;
+}
+#giraffe--neck {
+  position: absolute;
+  height: 12em;
+  width: 3em;
+  background-color: rgb(228, 185, 143);
+  -webkit-clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
 }
