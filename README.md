@@ -1,6 +1,6 @@
 # Pure CSS Challenge: Astronaut Giraffe
 
-Part of a goal to create images use pure CSS to strengthen understanding and practice of CSS
+Part of a goal to create images use pure CSS to strengthen understanding and practice of CSS. (Oct. 22/18)
 
 ## Other Pure CSS Images
 
