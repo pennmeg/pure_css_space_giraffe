@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(15, 24, 58) ;
+}
+#box {
+  position: relative;
+  margin: auto;
+  margin-top: 200px;
+  display: block;
+  width: 600px;
+  height: 420px;
+}
