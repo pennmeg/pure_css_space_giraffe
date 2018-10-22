@@ -21,14 +21,23 @@ body {
 }
 #space_helmet--1 {
   position: absolute;
-  width: 3.5em;
+  width: 3em;
   height: 5em;
   left: 40%;
   top: 8%;
   border: solid 3px white;
   border-color: #fff transparent transparent transparent;
   border-radius: 80%/30px 30px 0 0;
-  transform: rotate(40deg);
+  transform: rotate(30deg);
+}
+#space_helmet--2 {
+  position: absolute;
+  width: 0.25em;
+  height: 0.25em;
+  top: 24%;
+  left: 79%;
+  background-color: white;
+  border-radius: 100%;
 }
 #giraffe--head {
   position: absolute;
@@ -38,11 +47,30 @@ body {
   background-color: rgb(228, 185, 143);
   border-bottom-right-radius: 10em;
 }
+#giraffe--nose {
+  position: absolute;
+  width: 0.5em;
+  height: 0.5em;
+  left: 90%;
+  background-color: black;
+  border-bottom-right-radius: 10em;
+  z-index: 1;
+}
+#giraffe--eye {
+  position: absolute;
+  width: 0.25em;
+  height: 0.25em;
+  left: 30%;
+  top: 15%;
+  background-color: black;
+  border-radius: 100%;
+  z-index: 1;
+}
 #giraffe--neck {
   position: absolute;
   height: 12em;
   width: 3em;
   background-color: rgb(228, 185, 143);
   -webkit-clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
-clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
 }
