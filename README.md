@@ -1,5 +1,7 @@
 # Pure CSS Challenge: Astronaut Giraffe
 
+![Final Version: Space Giraffe](pure_css_space_giraffe.png)
+
 Part of a goal to create images use pure CSS to strengthen understanding and practice of CSS. (Oct. 22/18)
 
 ## Other Pure CSS Images
