@@ -7,6 +7,7 @@
 ## Other Pure CSS Images
 
 * https://github.com/pennmeg/pure_css_desk-flatlay
+* https://github.com/pennmeg/pure_css-donut
 * https://github.com/pennmeg/pure_css_pixel_heart
 * https://github.com/pennmeg/pure_css_image
 * https://github.com/pennmeg/pure_css_laptop
